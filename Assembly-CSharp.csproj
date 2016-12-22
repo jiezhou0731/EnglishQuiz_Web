@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{6760E601-D167-8717-8AFD-AB332D1BE65C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_2;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;ENABLE_TEXTUREID_MAP;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Project\Sprite\Environment\CameraChangeSize.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\CameraFollow.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\CooldownTimer.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\DisableAllButtons.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\DivideScene.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\Environment.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\FPSDisplay.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\GameState.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\GameStateManager.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\GestureDetector.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\MySceneManager\MySceneManager.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\RateBox\RateBox.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\ScreenShot.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\UnityAdsInit.cs" />
+     <Compile Include="Assets\Project\Sprite\Environment\Util.cs" />
+     <Compile Include="Assets\Project\Sprite\Particle\Blood\BloodSpill.cs" />
+     <Compile Include="Assets\Project\Sprite\Particle\ParticleSystemAutoDestroy.cs" />
+     <Compile Include="Assets\Project\Sprite\Sounds\BackgroundMusicManager.cs" />
+     <Compile Include="Assets\Project\Sprite\Sounds\MyAudio.cs" />
+     <Compile Include="Assets\Project\Sprite\Sounds\RandomPlayAudio.cs" />
+     <Compile Include="Assets\Project\Sprite\Sounds\SimpleAudio.cs" />
+     <Compile Include="Assets\Project\Sprite\Sounds\SoundManager.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Question\Streak\ShakingLabelDisplay.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\BlinkScaleEffect.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\CSVReader.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\CategoryController.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\CategoryItem.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\FillEffect.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\LandingPageController.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\QuestionPanel.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\ScoreDisplayOnePlayer.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\ScoreDisplayTwoPlayers.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\ShakeEffect.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\TextQuestion.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\Tip.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\UIPanelHeightAdapter.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\UIStateController.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\English\Scripts\UITransitionController.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Jungle\DurationIndicator\DurationIndicator.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Jungle\FloatLabel\FloatingLabel.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Jungle\MessageBubble\MessageBubble.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Jungle\MessageBubble\MessageBubbleManager.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Jungle\Scripts\ButtonAppearEffect.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Jungle\Scripts\ButtonHeightAdapter.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Jungle\Scripts\ColorChangingButton.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Jungle\Scripts\EffectPop.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Jungle\Scripts\FlyInEffect.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Jungle\Scripts\Magnet.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Jungle\Scripts\ScreenFader.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Jungle\Scripts\ShowHide.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Jungle\Share\ShareEveryplay.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Store\Content\NGUIButtonLabel.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Store\Scripts\MenuButton.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Store\Scripts\MessageUIController.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Store\Scripts\ScreenRotationController.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Store\Scripts\SplitScreenBoundary.cs" />
+     <Compile Include="Assets\Project\Sprite\UI\Store\Scripts\SplitScreenMenu.cs" />
+     <Compile Include="Assets\Supports\Andrew\ObjectCopier.cs" />
+     <Compile Include="Assets\Supports\EventManager\EventManager.cs" />
+     <Compile Include="Assets\Supports\HUD Text\Examples\Scripts\ChatManager.cs" />
+     <Compile Include="Assets\Supports\HUD Text\Examples\Scripts\ChatParticipant.cs" />
+     <Compile Include="Assets\Supports\HUD Text\Examples\Scripts\ColliderDisplayText.cs" />
+     <Compile Include="Assets\Supports\HUD Text\Examples\Scripts\HUDRoot.cs" />
+     <Compile Include="Assets\Supports\HUD Text\Examples\Scripts\LightFlicker.cs" />
+     <Compile Include="Assets\Supports\HUD Text\Examples\Scripts\Rotate.cs" />
+     <Compile Include="Assets\Supports\HUD Text\Scripts\HUDText.cs" />
+     <Compile Include="Assets\Supports\HUD Text\Scripts\UIFollowTarget.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\InventorySystem\Game\UIEquipmentSlot.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\InventorySystem\Game\UIItemSlot.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\InventorySystem\Game\UIItemStorage.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\InventorySystem\Game\UIStorageSlot.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\InventorySystem\System\InvAttachmentPoint.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\InventorySystem\System\InvBaseItem.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\InventorySystem\System\InvDatabase.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\InventorySystem\System\InvEquipment.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\InventorySystem\System\InvGameItem.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\InventorySystem\System\InvStat.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\ChatInput.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\DownloadTexture.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\ExampleDragDropItem.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\ExampleDragDropSurface.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\LagPosition.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\LagRotation.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\LoadLevelOnClick.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\LookAtTarget.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\OpenURLOnClick.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\PanWithMouse.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\PlayIdleAnimations.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\SetColorPickerColor.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\Spin.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\SpinWithMouse.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\Tutorial5.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\UISliderColors.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\WindowAutoYaw.cs" />
+     <Compile Include="Assets\Supports\NGUI\Examples\Scripts\Other\WindowDragTilt.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\EnvelopContent.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\TypewriterEffect.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIButton.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UICenterOnChild.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UICenterOnClick.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIDragDropContainer.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIDragDropItem.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIDragDropRoot.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIDragObject.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIDragResize.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIDragScrollView.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIEventTrigger.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIGrid.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIImageButton.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIKeyBinding.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIKeyNavigation.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIPlayAnimation.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIPlaySound.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIPlayTween.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIPopupList.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIProgressBar.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UISavedOption.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIScrollView.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIShowControlScheme.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UISlider.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UISoundVolume.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UITable.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIToggle.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIToggledComponents.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIToggledObjects.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIWidgetContainer.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Interaction\UIWrapContent.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\BMFont.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\BMGlyph.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\BMSymbol.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\BetterList.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\ByteReader.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\EventDelegate.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\Localization.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\NGUIDebug.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\NGUIMath.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\NGUIText.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\NGUITools.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\PropertyBinding.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\PropertyReference.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\RealTime.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\SpringPanel.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\UIBasicSprite.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\UIDrawCall.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\UIEventListener.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\UIGeometry.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\UIRect.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\UISnapshotPoint.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Internal\UIWidget.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\AnimatedAlpha.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\AnimatedColor.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\AnimatedWidget.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\SpringPosition.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\TweenAlpha.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\TweenColor.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\TweenFOV.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\TweenFill.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\TweenHeight.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\TweenOrthoSize.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\TweenPosition.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\TweenRotation.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\TweenScale.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\TweenTransform.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\TweenVolume.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\TweenWidth.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\Tweening\UITweener.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UI2DSprite.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UI2DSpriteAnimation.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UIAnchor.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UIAtlas.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UICamera.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UIColorPicker.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UIFont.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UIInput.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UIInputOnGUI.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UILabel.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UILocalize.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UIPanel.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UIRoot.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UISprite.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UISpriteData.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UIStretch.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UITextList.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UITexture.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UITooltip.cs" />
+     <Compile Include="Assets\Supports\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\Supports\Particle Ribbon\Scripts\ReverseNormals.cs" />
+     <Compile Include="Assets\Supports\PopingText\Content\Script\Core\bl_HUDText.cs" />
+     <Compile Include="Assets\Supports\PopingText\Content\Script\Core\bl_Text.cs" />
+     <Compile Include="Assets\Supports\PopingText\Content\Script\Internal\Enum\bl_Guidance.cs" />
+     <Compile Include="Assets\Supports\PopingText\Example\Script\bl_CameraOrbit.cs" />
+     <Compile Include="Assets\Supports\PopingText\Example\Script\bl_ExampleUI.cs" />
+     <Compile Include="Assets\Supports\PopingText\Example\Script\bl_TestMouseEvent.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Getting Started\Scripts\BasicPlatformerController.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Getting Started\Scripts\ConstrainedCamera.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Getting Started\Scripts\Raptor.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Getting Started\Scripts\SpineBeginnerTwo.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Getting Started\Scripts\SpineBlinkPlayer.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Getting Started\Scripts\SpineboyBeginnerInput.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Getting Started\Scripts\SpineboyBeginnerModel.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Getting Started\Scripts\SpineboyBeginnerView.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Scripts\Chimera.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Scripts\FootSoldierExample.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Scripts\Goblins.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Scripts\RaggedySpineboy.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Scripts\SpineGauge.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Scripts\Spineboy.cs" />
+     <Compile Include="Assets\Supports\Spine\Examples\Scripts\SpineboyPole.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Animation.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\AnimationState.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\AnimationStateData.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Atlas.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Attachments\AtlasAttachmentLoader.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Attachments\Attachment.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Attachments\AttachmentLoader.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Attachments\AttachmentType.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Attachments\BoundingBoxAttachment.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Attachments\MeshAttachment.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Attachments\PathAttachment.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Attachments\RegionAttachment.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Attachments\VertexAttachment.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\BlendMode.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Bone.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\BoneData.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Event.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\EventData.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\ExposedList.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\IUpdatable.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\IkConstraint.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\IkConstraintData.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Json.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\MathUtils.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\PathConstraint.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\PathConstraintData.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Skeleton.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\SkeletonBinary.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\SkeletonBounds.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\SkeletonData.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\SkeletonJson.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Skin.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\Slot.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\SlotData.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\TransformConstraint.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-csharp\TransformConstraintData.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Asset Types\AtlasAsset.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Asset Types\SkeletonDataAsset.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\BoneFollower.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\ISkeletonAnimation.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Mesh Generation\Arrays\ArraysMeshGenerator.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Mesh Generation\Arrays\ArraysSimpleMeshGenerator.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Mesh Generation\Arrays\ArraysSubmeshSetMeshGenerator.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Mesh Generation\Arrays\ArraysSubmeshedMeshGenerator.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Mesh Generation\DoubleBuffered.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Mesh Generation\DoubleBufferedMesh.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Mesh Generation\ISimpleMeshGenerator.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Mesh Generation\ISubmeshedMeshGenerator.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Mesh Generation\SpineMesh.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\AtlasRegionAttacher.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\BoundingBoxFollower\BoundingBoxFollower.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\CustomSkin.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\Ghost\SkeletonGhost.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\Ghost\SkeletonGhostRenderer.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\Ragdoll\SkeletonRagdoll.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\Ragdoll\SkeletonRagdoll2D.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\SkeletonGraphic\SkeletonGraphic.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\SkeletonRenderSeparator\SkeletonPartsRenderer.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityEyeConstraint.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityGroundConstraint.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityKinematicShadow.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\SpriteAttacher.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\TK2D\SpriteCollectionAttachmentLoader.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\YieldInstructions\WaitForSpineAnimationComplete.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\Modules\YieldInstructions\WaitForSpineEvent.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\SkeletonAnimation.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\SkeletonAnimator.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\SkeletonExtensions.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\SkeletonRenderer.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\SkeletonUtility\SkeletonUtility.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\SkeletonUtility\SkeletonUtilityConstraint.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\SkeletonUtility\SkeletonUtilitySubmeshRenderer.cs" />
+     <Compile Include="Assets\Supports\Spine\spine-unity\SpineAttributes.cs" />
+     <None Include="Assets\Supports\Spine\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
+     <None Include="Assets\Supports\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_video_buttonbar_button.xml" />
+     <None Include="Assets\Supports\NGUI\ReadMe - 3.10.1.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_slimprogressbar.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_video_microphone_editor.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\Eyes\eyes.atlas.txt" />
+     <None Include="Assets\Supports\Spine\spine-unity\Shaders\HiddenPass.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_editor_trimmer.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_editor_trimmer_current_time_track.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
+     <None Include="Assets\Supports\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_topbar_menubutton.xml" />
+     <None Include="Assets\Supports\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\Supports\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_theme_distinct_button_background.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_levels.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\values\everyplay_strings.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_video_timeline_current_time_track.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_editor_trimmer_tracker_button_pressed.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_editor_playback_control.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_browser_button_back.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_sidemenu_button.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_trashcan_background.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_theme_button_background.xml" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\Gauge\Gauge.atlas.txt" />
+     <None Include="Assets\Supports\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+     <None Include="Assets\Supports\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_video_timeline_tracker_button_pressed.xml" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\FootSoldier\FS_White.atlas.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_editor_button_background.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_topbar_notification.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_editor_buttons.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_text_input.xml" />
+     <None Include="Assets\Project\Sprite\UI\Store\Content\CloverPack\Spine\CloverPack.atlas.txt" />
+     <None Include="Assets\Supports\Spine\spine-unity\Modules\CustomMaterials\readme.txt" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\Hero\hero-mesh.atlas.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_sidemenu_button.xml" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\Dragon\license.txt" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_editor_trimmer_handle_pressed.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\values\everyplay_styles.xml" />
+     <None Include="Assets\Supports\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\Hero\license.txt" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\Goblins\goblins.atlas.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_video_endscreen_install_button.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_facecam_timeline.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_action_list_option.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_video_endscreen_video.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_video_button_bar.xml" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\Raptor\raptor.atlas.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_editor_processing_bg.xml" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\Spineboy\spineboy.atlas.txt" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_theme_sidemenu_background.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_topbar_background.xml" />
+     <None Include="Assets\Supports\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_text_input_background.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_editor_trimmer_tracker_button.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_trashcan.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_action_list_button.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_sidemenu_grouplabel.xml" />
+     <None Include="Assets\Supports\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_video_facecam_player.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\FootSoldier\license.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_video_timeline_stream_progress_track.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_social_topbar.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_video_endscreen.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_action_list.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\Raggedy Spineboy\Raggedy Spineboy.atlas.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_video_microphone_bg.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_browser_button_share.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_sidemenu.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+     <None Include="Assets\Supports\Spine\spine-unity\Shaders\Bones.shader" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_video_error.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\values-ko\everyplay_strings.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\AndroidManifest.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_splashscreen.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_video_control_button.xml" />
+     <None Include="Assets\Supports\Spine\spine-unity\Modules\Ghost\Shaders\SkeletonGhost.shader" />
+     <None Include="Assets\Supports\HUD Text\ReadMe - 1.13.txt" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_editor_trimmer_handle.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\values-zh-rCN\everyplay_strings.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_facecam_countdown.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_button_shape.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\build.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_editor_microphone.xml" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\Dragon\dragon.atlas.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_video_control_buttons.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_video_oval_button.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_editor_vumeters.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_browser_button_refresh.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_video_header.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_action_list_destructive.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\values-ja\everyplay_strings.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\values\everyplay_colors.xml" />
+     <None Include="Assets\Supports\Spine\spine-unity\Modules\SkeletonGraphic\Shaders\SkeletonGraphic.shader" />
+     <None Include="Assets\Supports\Spine\spine-unity\Shaders\Skeleton.shader" />
+     <None Include="Assets\Supports\HUD Text\Examples\Atlases\Arimo20.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_video_timeline_tracker_button.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_theme_sidemenu_button.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_editor_processing.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_progressbar_horizontal.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_trashcan_background_active.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_editor_trimmer_background_track.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_action_list_cancel.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_browser_bottombar.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_video_facecam.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_video_timeline.xml" />
+     <None Include="Assets\Supports\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Transparent Masked.shader" />
+     <None Include="Assets\Supports\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\Supports\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\Supports\Particle Ribbon\readme_Simple_Particle_Ribbon.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\values\everyplay_attrs.xml" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\Spineunitygirl\Doi.atlas.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_video_facecam_bg.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\values\everyplay_themes.xml" />
+     <None Include="Assets\Supports\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+     <None Include="Assets\Supports\HUD Text\Examples\Atlases\Large.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_video_header_install_button.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_topbar_closebutton.xml" />
+     <None Include="Assets\Supports\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Supports\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Plugins\Everyplay\Helpers\Shaders\EveryplayCrossfade.shader" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_button_blue.xml" />
+     <None Include="Assets\Supports\Spine\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\proguard-project.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_browser_layout.xml" />
+     <None Include="Assets\Supports\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\Supports\Spine\spine-unity\Shaders\SkeletonLit.shader" />
+     <None Include="Assets\Supports\NGUI\Examples\Resources\Localization.txt" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_video_round_button.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_social_layout.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_video_microphone.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_video_facecam_editor.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_browser_button_forward.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\drawable\everyplay_button_green.xml" />
+     <None Include="Assets\Plugins\Android\everyplay\res\layout\everyplay_auth_layout.xml" />
+     <None Include="Assets\Supports\Spine\Examples\Spine\FootSoldier\Equipment\Equipment.atlas.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>/Users/jie/Documents/workspace/unity/Quiz/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{CF2D68FF-C471-AB13-CED4-7E3885961EAA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d77004d7ab0de43b6ac1a5e58a51503e
+timeCreated: 1476323212
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Liberation Mono
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d1045ab04728847feb995f30b14664dc, type: 3}
+  - {fileID: 12800000, guid: 220cbeb6116a546c5bce8d085fa4afb7, type: 3}
+  - {fileID: 12800000, guid: 22ff572c6e6f846258a1cf1e72d37e61, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

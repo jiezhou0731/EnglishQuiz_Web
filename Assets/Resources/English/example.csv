@@ -1,0 +1,9 @@
+level,word,separable,definition
+Level 1,"word 1","yes","definition 1"
+Level 1,"word 2","yes","definition 2"
+Level 2,"word 3","yes","definition 3"
+Level 2,"word 4","yes","definition 4"
+Level 3,"word 5","yes","definition 5"
+Level 3,"word 6","no","definition 6"
+Level 3,"word 7","no","definition 7"
+Level 3,"word 8","no","definition 8"

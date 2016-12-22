@@ -1,0 +1,361 @@
+level,subset,word,definition
+Level 1,A,alley,a narrow passageway or street
+Level 1,A,appetite,desire to eat
+Level 1,A,boast,brag; say great things about yourself
+Level 1,A,cattle,"a general name for ""cows"""
+Level 1,A,drudgery,"hard, uninteresting labor"
+Level 1,A,dull,"boring, not exciting; not bright or sharp"
+Level 1,A,entirely,on the whole
+Level 1,A,gigantic,"huge, large, enormous"
+Level 1,A,goofy,"funny, silly"
+Level 1,A,hatch,break out of an egg
+Level 1,A,naked,without covering or clothing
+Level 1,A,outraged,"upset, very mad"
+Level 1,A,outskirts,"the suburbs, area around a city"
+Level 1,A,peddler,someone who sells things
+Level 1,A,portion,small part or section
+Level 1,A,roam,"wander, walk around without direction"
+Level 1,A,slim,skinny; thin
+Level 1,A,struggle,have difficulty doing something; fight
+Level 1,A,swell,"get bigger, enlarge"
+Level 1,A,upgrade,improve the quality of something
+Level 1,B,affiliate,associate as a member
+Level 1,B,analgesic,something used to reduce pain
+Level 1,B,apiece,"each, individually"
+Level 1,B,compensation,"payment for service, loss or expense"
+Level 1,B,concoct,create by combining various ingredients
+Level 1,B,confess,admit to wrongdoing
+Level 1,B,crummy,"lousy, miserable, or worthless"
+Level 1,B,curiosity,desire to know; inquisitive interest
+Level 1,B,exile,forced removal from one's country
+Level 1,B,fatal,causing death
+Level 1,B,fugitive,"one who tries to escape, runaway"
+Level 1,B,hemorrhage,excessive bleeding
+Level 1,B,incident,an occurrence or even; happening
+Level 1,B,juvenile,"young, immature, youthful"
+Level 1,B,legitimate,"lawful, conforming to accepted standards"
+Level 1,B,listless,lacking energy or spirit
+Level 1,B,negligent,failing to give proper care or attention
+Level 1,B,psychiatry,branch of medicine dealing with mental disorders
+Level 1,B,qualm,"feeling of uneasiness, doubt or fear"
+Level 1,B,sober,not drunk; serious
+Level 1,C,alarm,a device that sounds a warning
+Level 1,C,alphabet,a set of English letters
+Level 1,C,blame,to accuse someone or wrongdoing
+Level 1,C,blank,"empty, without any marks"
+Level 1,C,bounce,to spring or leap like a ball
+Level 1,C,burglar,one who breaks into a building and steals
+Level 1,C,compassion,feeling of sympathy towards another person
+Level 1,C,credentials,qualifications or background
+Level 1,C,detect,to discover the existence of something
+Level 1,C,expert,a person with a high degree of knowledge or skill
+Level 1,C,finesse,ability to handle difficult situations well
+Level 1,C,frighten,to make someone scared or afraid
+Level 1,C,glimpse,a brief look; an indication
+Level 1,C,inquiry,the act or process of questioning
+Level 1,C,interfere,to get in the way; prevent someone from doing a task
+Level 1,C,outstanding,"distinguished, excellent"
+Level 1,C,ramble,to talk on an on without saying much
+Level 1,C,rough,having a bumpy surface; not smooth
+Level 1,C,tap,to strike or hit gently
+Level 1,C,widespread,covering a large area
+Level 2,A,alternative,"choice, selection, option"
+Level 2,A,consumer,person who buys things
+Level 2,A,discrimination,"treating people unfairly because of race, gender, etc."
+Level 2,A,earn,get money through working
+Level 2,A,encourage,"give help, support or confidence"
+Level 2,A,ignore,don't pay attention
+Level 2,A,illusion,"false idea, dream"
+Level 2,A,immigrant,person who comes into a country to live
+Level 2,A,irrelevant,not related or applicable
+Level 2,A,lonely,without needed companionship
+Level 2,A,observe,"perceive thorough the senses, see"
+Level 2,A,own,possess
+Level 2,A,participation,"taking part, getting involved in a group activity"
+Level 2,A,poverty,condition of being poor
+Level 2,A,practical,useful and realistic
+Level 2,A,rise,"go up, get higher"
+Level 2,A,skill,"ability, talent"
+Level 2,A,vocational,pertaining to a specific job
+Level 2,A,volunteer,person who gives service without pay
+Level 2,A,widow,woman whose husband has died
+Level 2,B,axe,instrument used in chopping wood
+Level 2,B,blade,"the flat, cutting edge of a knife or tool"
+Level 2,B,cage,a structure made of wires or bars for confining animals
+Level 2,B,cork,"material from the bark of a tree, often used as toppers for wine bottles"
+Level 2,B,crook,"a thief, criminal, swindler"
+Level 2,B,dozen,a set of twelve
+Level 2,B,emerald,a precious stone of bright green color
+Level 2,B,eyelid,a fold of skin which covers the eyeball
+Level 2,B,knot,formed when two ropes are tied together
+Level 2,B,leak,a hole or crack which allows water to pass thorough
+Level 2,B,lumber,wood which has been sawed into boards
+Level 2,B,ounce,"unit of weight, one-sixteenth of a pound"
+Level 2,B,plug,part of a machine which is connected to an electrical source
+Level 2,B,railing,a bar which is used for support when climbing stairs
+Level 2,B,rainbow,an arch containing the colors of the spectrum
+Level 2,B,ribbon,a narrow strip of cloth used for decoration
+Level 2,B,sponge,an absorbent material used for washing
+Level 2,B,thermometer,an instrument used for measuring temperature
+Level 2,B,thunder,noise usually followed by a flash of lightning
+Level 2,B,varnish,a substance painted on wood to make it glossy
+Level 2,C,bake,to cook in an oven
+Level 2,C,barrel,a large round container used for holding great amounts of liquid
+Level 2,C,bat,"a small, furry mammal which flies at night"
+Level 2,C,chew,to cut and grind with the teeth
+Level 2,C,fold,to lay or bend something over upon itself
+Level 2,C,hanger,a device upon which clothing is hung
+Level 2,C,log,a fallen tree trunk or bulky piece of timber
+Level 2,C,melt,to reduce from a solid to a liquid by heat
+Level 2,C,owe,to be under obligation or indebted to someone
+Level 2,C,rinse,to cleanse with water after washing with soap
+Level 2,C,sand,a grainy type of soil found on beaches
+Level 2,C,sheet,a large thin cloth which can be spread on a bed
+Level 2,C,soak,to immerse or drench in water or other liquid
+Level 2,C,spill,to allow something to fall or run out of a vessel or container
+Level 2,C,spoil,to make the quality of something worse
+Level 2,C,squeeze,"to compress; press closely, usually for extracting juice"
+Level 2,C,swallow,to move food or drinks down the throat
+Level 2,C,swing,"to move back and forth, sway"
+Level 2,C,wrap,"to cover with paper,cloth, or plastic"
+Level 2,C,yawn,open the mouth in an expression of sleepiness
+Level 3,A,approach,get closer
+Level 3,A,collapse,fall down
+Level 3,A,conquer,"defeat, overcome"
+Level 3,A,coward,person who is not brave
+Level 3,A,evolve,develop slowly
+Level 3,A,expansion,growth
+Level 3,A,fleet,group of ships
+Level 3,A,incredible,unbelievable
+Level 3,A,inhabitant,resident
+Level 3,A,monopoly,complete commercial control
+Level 3,A,peak,top of the mountain; highest point
+Level 3,A,peasant,"poor, simple farmer"
+Level 3,A,priceless,very valuable
+Level 3,A,route,"path, road, way"
+Level 3,A,severe,"cruel, harsh"
+Level 3,A,starvation,terrible hunger
+Level 3,A,vast,"huge, immense"
+Level 3,A,warehouse,large building for storage
+Level 3,A,warrior,fighter
+Level 3,A,wilderness,"wild, unsettled area"
+Level 3,B,bargain,something you can buy cheaply
+Level 3,B,blackout,electric power outage
+Level 3,B,challenge,call for energetic work or action
+Level 3,B,charge,postpone or delay payment until the bill comes
+Level 3,B,combination,joining together of things or ideas
+Level 3,B,contact,to get in touch with; get together to talk with
+Level 3,B,deposit,put money into a bank account
+Level 3,B,enthusiastic,very interested or excited about something
+Level 3,B,inform,"to tell, give the facts"
+Level 3,B,irrational,impossible to explain reasonably
+Level 3,B,nationwide,everywhere in the country
+Level 3,B,personality,the nature or character of a person
+Level 3,B,prevent,stop something from happening
+Level 3,B,profit,money people make from business
+Level 3,B,slang,informal language
+Level 3,B,teller,a person who works at a bank window
+Level 3,B,trend,a fad that lasts for a long time
+Level 3,B,waste,"use wrongly, use too much of"
+Level 3,B,withdraw,take money out of the bank
+Level 3,B,workaholic,compulsive worker
+Level 3,C,adolescent,a teenager
+Level 3,C,authenticity,"reality, certainty"
+Level 3,C,cellophane,a plastic wrapping
+Level 3,C,coffin,a box in which a dead body is placed for burial
+Level 3,C,contemporary,from the same time period
+Level 3,C,cracker,"a hard, salty, cookie-like food"
+Level 3,C,devout,very religious
+Level 3,C,dweller,"inhabitant, person who lives at a certain place"
+Level 3,C,fantasy,"imagination, dream world"
+Level 3,C,fascinating,"very interesting, exciting, fun"
+Level 3,C,former,the first of two things
+Level 3,C,galaxy,a group of millions of stars
+Level 3,C,glance,to look at something quickly
+Level 3,C,havoc,"a lot of trouble, chaos"
+Level 3,C,latter,the second of two things
+Level 3,C,opaque,not transparent
+Level 3,C,perceive,"to sense (see, hear, smell, touch)"
+Level 3,C,subsequent,"coming after, following"
+Level 3,C,tipping,giving extra money for services
+Level 3,C,wrap,to put paper around something (a gift)
+Level 4,A,astonish,"surprise, amaze"
+Level 4,A,athlete,sportsman or woman
+Level 4,A,attic,area between the roof and ceiling of a house
+Level 4,A,bathrobe,clothing worn after taking a shower
+Level 4,A,coward,a person who is not brave
+Level 4,A,decathlon,ten track and field events
+Level 4,A,depending,"trusting, relying on"
+Level 4,A,flock,group of sheep
+Level 4,A,glance,to look quickly
+Level 4,A,inquire,ask questions
+Level 4,A,jogging,running slowly
+Level 4,A,maid,paid housekeeper
+Level 4,A,motive,reason
+Level 4,A,narrow,"thin, not wide"
+Level 4,A,octopus,deep sea animal with eight legs
+Level 4,A,rancher,person who owns a large farm with animals
+Level 4,A,revolver,"gun, pistol"
+Level 4,A,risk,possibility of danger or loss
+Level 4,A,thrilling,exciting
+Level 4,A,trophy,prize given in a race or competition
+Level 4,B,almanac,book of facts published annually
+Level 4,B,antique,object prized for its age
+Level 4,B,assemble,"come together, meet"
+Level 4,B,astronomy,science that deals with the universe
+Level 4,B,carve,to create a form by cutting
+Level 4,B,century,period of one hundred years
+Level 4,B,chime,device that produces a bell-like sound
+Level 4,B,decorative,"ornamental, with artistic design"
+Level 4,B,eclipse,event obscuring the sun or moon
+Level 4,B,estate,"property, land, possessions"
+Level 4,B,fortune,"good or bad luck, fate"
+Level 4,B,heir,one who inherits from a parent
+Level 4,B,inferior,of lower or lesser quality
+Level 4,B,museum,institute that displays artifacts for the public
+Level 4,B,patriotic,having feelings of devotion towards one's country
+Level 4,B,pocket,a flat pouch sewn into the clothing
+Level 4,B,scientist,an expert in a field of study
+Level 4,B,telescope,instrument for viewing distant objects
+Level 4,B,textile,"fabric, cloth, woven material"
+Level 4,B,wooden,made of lumber or timber products
+Level 4,C,bounce,spring or leap like a ball
+Level 4,C,cream,"thick, fluffy milk based product"
+Level 4,C,dessert,sweet dish served after a meal
+Level 4,C,dip,put lightly into water or liquid
+Level 4,C,fur,thick animal hair
+Level 4,C,harvest,gather crops at the end of growing season
+Level 4,C,jam,sweet preserved fruit spread
+Level 4,C,magician,one who performs illusions
+Level 4,C,pounding,"beating, hitting repeatedly"
+Level 4,C,puppet,doll or toy which can be animated by manipulation
+Level 4,C,rendezvous,meeting at a pre-arranged place
+Level 4,C,revenue,"earnings, income from a business"
+Level 4,C,sample,try or test food for taste
+Level 4,C,seal,an aquatic mammal prized for its fur
+Level 4,C,supply,materials kept in stock for future use
+Level 4,C,toss,throw lightly
+Level 4,C,trampoline,athletic equipment used for jumping into the air
+Level 4,C,trapper,person who catches wild animals for a living
+Level 4,C,treat,special delight
+Level 4,C,walrus,large Seal-like mammal with tusks
+Level 5,A,ardor,with great intensity
+Level 5,A,blissful,extremely happy
+Level 5,A,cite,give reference to
+Level 5,A,condominium,individual home within a building of similar homes
+Level 5,A,confront,raise an issue directly and argumentatively
+Level 5,A,evaluate,give feedback
+Level 5,A,issue,things that need to be discussed
+Level 5,A,parlance,"language, usually used by a particular group"
+Level 5,A,poll,survey from the general population
+Level 5,A,premarital,before marriage
+Level 5,A,proportion,"segment or section, percentage of the whole"
+Level 5,A,region,"area, location"
+Level 5,A,relationship,social connection between people
+Level 5,A,release,"set free, allow to go out"
+Level 5,A,reluctance,"hesitation, unwillingness to do something"
+Level 5,A,survey (noun),"a questionnaire, or a report showing results of a poll"
+Level 5,A,survey (verb),ask questions to find out people's opinions
+Level 5,A,therapy,professional psychological counseling
+Level 5,A,unflattering,not in a complimentary way
+Level 5,A,wed,get married
+Level 5,B,banknote,paper money or currency
+Level 5,B,cope,handle or deal with a difficult situation
+Level 5,B,dent,"weaken, lessen the value of something, usually by hitting"
+Level 5,B,desperate,without hope
+Level 5,B,ensure,"make certain, insure"
+Level 5,B,exhausted,extremely tired
+Level 5,B,gallery,place where art is displayed for the public
+Level 5,B,generous,"giving unselfishly, usually large amounts"
+Level 5,B,hop,"jump a short distance, sometimes on one foot"
+Level 5,B,instinct,natural or innate ability
+Level 5,B,lack,"absence, deficiency"
+Level 5,B,lecturer,a university professor
+Level 5,B,mathematics,course subject dealing with numbers and calculations
+Level 5,B,perceive,"sense, notice, observe through the senses"
+Level 5,B,province,a designated political area within a country; similar to a state
+Level 5,B,punish,impose a penalty for wrongful behavior
+Level 5,B,reinforce,"give support to, strengthen"
+Level 5,B,significantly,in an important or meaningful way
+Level 5,B,stow,put something in a small space for storage
+Level 5,B,transfer,change vehicles or methods of transportation en route to one's destination
+Level 5,C,agriculture,industry related to raising crops or livestock
+Level 5,C,chant,"a rhythmic string of sounds, sometimes set to music"
+Level 5,C,compete,strive against another to achieve a goal
+Level 5,C,cooperation,working together
+Level 5,C,cottage,a small house in the countryside
+Level 5,C,crop,plants that are grown for human consumption
+Level 5,C,effort,work or exertion
+Level 5,C,exhibit,"a show, public presentation"
+Level 5,C,facial,related to the face or expression
+Level 5,C,flow,move smoothly or gracefully
+Level 5,C,irrigation,watering crops by artificial means
+Level 5,C,official,"formal, recognized by proper authorities"
+Level 5,C,perform,"to act, put on a show"
+Level 5,C,preserve,maintain or keep something for later use
+Level 5,C,quality,characteristic or trait
+Level 5,C,quilt,a thick blanket
+Level 5,C,ranch,large farm where animals are raised
+Level 5,C,rodeo,competition featuring cowboy skills and events
+Level 5,C,stampede,sudden rush of herd animals
+Level 5,C,worship,give reverence to something sacred
+Level 6,A,coastline,where land meets the sea
+Level 6,A,compose,put together creatively
+Level 6,A,condense,make smaller or more concise
+Level 6,A,decent,"fitting acceptable standards, respectable"
+Level 6,A,doubt,uncertainty or skepticism
+Level 6,A,encompass,"include, encircle, surround"
+Level 6,A,estimate,"calculate generally, figure approximately"
+Level 6,A,exaggerate,grossly overstate or overdo
+Level 6,A,fortunate,"lucky, auspicious"
+Level 6,A,income,money gained through work or investment
+Level 6,A,margin,border or edge; space surrounding text
+Level 6,A,moist,slightly wet or damp
+Level 6,A,perspective,"point of view, outlook"
+Level 6,A,pleasant,"good-natured,enjoyable or agreeable"
+Level 6,A,ponder,contemplate or think deeply about something
+Level 6,A,preside,"have authority over something, oversee"
+Level 6,A,primary,"first, most important, main"
+Level 6,A,stretch,"expand or extend, lengthen"
+Level 6,A,surpass,"go beyond, exceed expectations"
+Level 6,A,tropical,of a warm and humid climate
+Level 6,B,adopt,take and raise someone else's child as one's own
+Level 6,B,agenda,a plan for a business meeting
+Level 6,B,aquarium,a tank for tropical fish
+Level 6,B,autograph,"signature, especially of a famous person"
+Level 6,B,carpenter,person who makes things from wood
+Level 6,B,clinic,"place for medical treatment, smaller than a hospital"
+Level 6,B,collision,"hitting with force, as in a car crash"
+Level 6,B,deceased,"dead, passed away"
+Level 6,B,dilemma,situation or problem with difficult solution
+Level 6,B,erupt,"burst, or explode like a volcano"
+Level 6,B,insomnia,inability to sleep or remain sleeping
+Level 6,B,jewelry,"adornments made of gold, silver or precious stones"
+Level 6,B,merchandise,items for sale at a store
+Level 6,B,nanny,full-time or live-in baby sitter
+Level 6,B,radius,distance from center to outside of a circle
+Level 6,B,razor,sharp tool used for shaving
+Level 6,B,ridiculous,"absurd, silly, laughable, nonsensical"
+Level 6,B,shelter,something that protects you from the weather; housing
+Level 6,B,spouse,person one is married to; husband or wife
+Level 6,B,vehicle,"means of transportation, usually a car or truck"
+Level 6,C,agent,"person who represents another, usually for business"
+Level 6,C,conceal,"hide, keep secret or not allow others to discover"
+Level 6,C,courtship,getting to know another for the purposes of marriage
+Level 6,C,detective,"someone who gathers evidence, especially about crimes"
+Level 6,C,durable,strong and long lasting; able to resist wear and tear
+Level 6,C,enhance,"make more valuable, raise the quality of something"
+Level 6,C,forbid,"prohibit, disallow, prevent from doing something"
+Level 6,C,initiate,begin or get a process started
+Level 6,C,merit,"excellence, something that deserves praise"
+Level 6,C,optimal,the best; most desirable
+Level 6,C,parrot,"type of ""talking"" bird sometimes kept as a pet"
+Level 6,C,publicity,"widespread notification, or announcement; advertisement"
+Level 6,C,random,"by chance, in an unorganized way"
+Level 6,C,reinforce,"to support, strengthen, add to"
+Level 6,C,status,a person's position or rank within a social group
+Level 6,C,tactic,"strategy, method, or system to achieve results"
+Level 6,C,toxic,"poisonous, or containing poisonous chemicals"
+Level 6,C,tunnel,a passageway that goes underground
+Level 6,C,versatile,having many skills or functions; flexible and easy to adapt
+Level 6,C,victim,a person who suffers harm because of a crime or action

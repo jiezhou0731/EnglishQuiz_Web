@@ -1,0 +1,48 @@
+
+CloverPack.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clover
+  rotate: false
+  xy: 0, 416
+  size: 469, 457
+  orig: 469, 457
+  offset: 0, 0
+  index: -1
+stem1
+  rotate: false
+  xy: 849, 472
+  size: 29, 401
+  orig: 29, 401
+  offset: 0, 0
+  index: -1
+vase1
+  rotate: false
+  xy: 746, 458
+  size: 103, 415
+  orig: 103, 415
+  offset: 0, 0
+  index: -1
+vase2
+  rotate: false
+  xy: 0, 0
+  size: 213, 416
+  orig: 213, 416
+  offset: 0, 0
+  index: -1
+vase3
+  rotate: false
+  xy: 469, 533
+  size: 277, 340
+  orig: 277, 340
+  offset: 0, 0
+  index: -1
+vase4
+  rotate: false
+  xy: 213, 113
+  size: 289, 303
+  orig: 289, 303
+  offset: 0, 0
+  index: -1
