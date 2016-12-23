@@ -1,11 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../Quiz/Assets/Project/Sprite/UI/English/Scripts/CategoryController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/English/phrasalverbs.csv">
     <Files>
+      <File FileName="Assets/Project/Sprite/UI/Jungle/Scripts/ButtonAppearEffect.cs" Line="41" Column="6" />
       <File FileName="Assets/Project/Sprite/Environment/RateBox/RateBox.cs" Line="1" Column="1" />
-      <File FileName="../Quiz/Assets/Project/Sprite/Environment/UnityAdsInit.cs" Line="67" Column="1" />
-      <File FileName="../Quiz/Assets/Project/Sprite/UI/English/Scripts/QuestionPanel.cs" Line="17" Column="1" />
-      <File FileName="../Quiz/Assets/Project/Sprite/UI/English/Scripts/CategoryController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Project/Sprite/UI/English/Scripts/QuestionPanel.cs" Line="211" Column="100" />
+      <File FileName="Assets/Project/Sprite/UI/English/Scripts/CategoryController.cs" Line="53" Column="65" />
+      <File FileName="Assets/Project/Sprite/UI/English/Scripts/CSVReader.cs" Line="1" Column="1" />
+      <File FileName="Assets/Project/Sprite/UI/Jungle/Scripts/EffectPop.cs" Line="1" Column="1" />
+      <File FileName="Assets/Project/Sprite/UI/English/Scripts/Tip.cs" Line="21" Column="4" />
+      <File FileName="Assets/Project/Sprite/UI/English/Scripts/UIStateController.cs" Line="24" Column="16" />
+      <File FileName="Assets/Resources/English/phrasalverbs.csv" Line="1" Column="39" />
+      <File FileName="Assets/Project/Sprite/UI/English/Scripts/UITransitionController.cs" Line="8" Column="2" />
+      <File FileName="Assets/Project/Sprite/UI/Jungle/Scripts/FlyInEffect.cs" Line="43" Column="5" />
+      <File FileName="Assets/Project/Sprite/UI/Jungle/Scripts/ColorChangingButton.cs" Line="22" Column="6" />
+      <File FileName="Assets/Supports/NGUI/Examples/Scripts/Other/UISliderColors.cs" Line="53" Column="9" />
+      <File FileName="Assets/Project/Sprite/UI/Jungle/Scripts/ButtonHeightAdapter.cs" Line="8" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
