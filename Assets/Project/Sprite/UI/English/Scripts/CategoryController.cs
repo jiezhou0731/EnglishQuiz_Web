@@ -4,7 +4,9 @@ using System.Collections.Generic;
 
 public class CategoryController : MonoBehaviour {
 	public string fileName = "academicword";
-	public bool hasSeperableColumn = false;
+
+
+	public QuizType quizType = QuizType.RandomWrong;
 
 	public GameObject categoryItemModel;
 	private Transform category1Grid;
@@ -40,11 +42,6 @@ public class CategoryController : MonoBehaviour {
 				category1 [rawData [i] ["level"].ToString ()] = new List<string> ();
 				category1 [rawData [i] ["level"].ToString ()].Add(rawData [i] ["subset"].ToString ());
 			}
-			/*
-			print (" " + rawData[i]["level"] + " " +
-				"  " + rawData[i]["word"] + " " +
-				"  " + rawData[i]["separable"] + " " +
-				"  " + rawData[i]["definition"]);*/
 		}
 
 
@@ -57,14 +54,17 @@ public class CategoryController : MonoBehaviour {
 			data.Add ((new CategoryLevel1 ()));
 			string st = "";
 			foreach (string subset in item.Value){
-				if (!hasSeperableColumn) {
+				if (quizType == QuizType.RandomWrong) {
 					st += "Quiz " + subset
 						+ ".1,";
-				} else {
+				} else if (quizType == QuizType.RandomWrong) {
 					st += "Quiz "+subset 
 						+ ".1,Quiz "
 						+subset
 						+".2,";
+				} else if (quizType == QuizType.FixedWrong) {
+					st += "Quiz " + subset
+						+ ".1,";
 				}
 			}
 			data [index].Initialize (item.Key ,st);
@@ -185,3 +185,4 @@ public class CategoryLevel1{
 		}
 	}
 }
+public enum QuizType {RandomWrong, RandonWrongAndSpererable, FixedWrong};

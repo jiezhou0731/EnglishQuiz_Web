@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{92550ACC-A3D9-1221-7E44-15F7DF83FFE1}</ProjectGuid>
+    <ProjectGuid>{66A85C58-132C-0EBC-3CCA-650E304C9193}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -358,7 +358,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements.Editor">
- <HintPath>/Users/jie/Documents/workspace/unity/Quiz/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+ <HintPath>/Users/jie/Documents/workspace/unity/QuizWeb/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -378,9 +378,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{CF2D68FF-C471-AB13-CED4-7E3885961EAA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{5C380F53-FD9B-314A-E3A3-74B3AE18101A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{6760E601-D167-8717-8AFD-AB332D1BE65C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{83E024CF-D407-1B80-C5C6-548E37E985FD}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

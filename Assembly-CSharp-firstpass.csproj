@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CF2D68FF-C471-AB13-CED4-7E3885961EAA}</ProjectGuid>
+    <ProjectGuid>{5C380F53-FD9B-314A-E3A3-74B3AE18101A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -225,7 +225,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements.Editor">
- <HintPath>/Users/jie/Documents/workspace/unity/Quiz/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+ <HintPath>/Users/jie/Documents/workspace/unity/QuizWeb/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -23,13 +23,22 @@ public class QuestionPanel : UITransitionController {
 		category1 = CategoryController.currentCategory1;
 		string[] category2 = CategoryController.currentCategory2.Substring (5).Split ('.');
 		subset = category2[0];
-		if (category2[1]=="1"){
-			MessageBubbleManager.AddTextMessage("Select the correct definition.",0.5f,10f);
-			questionType = "Definition";
-		}else if (category2[1]=="2"){
-			MessageBubbleManager.AddTextMessage("Select if the two words are separable.",0.5f,10f);
-			questionType = "Separable";
+		if (CategoryController.instance.quizType == QuizType.RandomWrong
+		    || CategoryController.instance.quizType == QuizType.RandonWrongAndSpererable) {
+			if (category2 [1] == "1") {
+				MessageBubbleManager.AddTextMessage ("Select the correct definition.", 0.5f, 10f);
+				questionType = "Definition";
+			} else if (category2 [1] == "2") {
+				MessageBubbleManager.AddTextMessage ("Select if the two words are separable.", 0.5f, 10f);
+				questionType = "Separable";
+			}
+		} else if (CategoryController.instance.quizType == QuizType.FixedWrong) {
+			if (category2 [1] == "1") {
+				MessageBubbleManager.AddTextMessage ("Select the correct answer.", 0.5f, 10f);
+				questionType = "FixedWrong";
+			}
 		}
+
 		data = CategoryController.rawData;
 		GenerateProblemSet ();
 
@@ -75,6 +84,28 @@ public class QuestionPanel : UITransitionController {
 						}
 						answers [randomSelect] = false;
 						usedDefinition [randomSelect] = true;
+					}
+				}
+				textQuestion.SetNewQuestion (problemSet [currentQuestionIndex] [0], answers);
+			} else if (questionType == "FixedWrong") {
+				Dictionary<string,bool> answers = new Dictionary<string,bool> ();
+				int correctAnswerIndex = Random.Range (0, 4);
+				// [0] is question, [1] is correct
+				int[] shuffled = {2,3,4};
+				for (int i = 0; i < shuffled.Length; i++) {
+					int temp = shuffled[i];
+					int randomIndex = Random.Range(i, shuffled.Length);
+					shuffled[i] = shuffled[randomIndex];
+					shuffled[randomIndex] = temp;
+				}
+				int currentWrongAnswerIndex = 0;
+				for (var i = 0; i < 4; i++) {
+					if (correctAnswerIndex == i) {
+						answers [problemSet [currentQuestionIndex] [1]] = true;
+					} else {
+						string wrongAnswer = problemSet [currentQuestionIndex] [shuffled[currentWrongAnswerIndex]];
+						currentWrongAnswerIndex++;
+						answers [wrongAnswer] = false;
 					}
 				}
 				textQuestion.SetNewQuestion (problemSet [currentQuestionIndex] [0], answers);
@@ -268,6 +299,19 @@ public class QuestionPanel : UITransitionController {
 					List<string> newQuestion = new List<string> ();
 					newQuestion.Add (data [i] ["word"].ToString ());
 					newQuestion.Add (data [i] ["definition"].ToString ());
+					problemSet.Add (newQuestion);
+				}
+			}
+		} else if (questionType == "FixedWrong") {
+			for (int i = 0; i < data.Count; i++) {
+				if (category1.Equals (data [i] ["level"].ToString ())
+					&& subset.Equals (data [i] ["subset"].ToString ())) {
+					List<string> newQuestion = new List<string> ();
+					newQuestion.Add (data [i] ["question"].ToString ());
+					newQuestion.Add (data [i] ["correct"].ToString ());
+					newQuestion.Add (data [i] ["wrong1"].ToString ());
+					newQuestion.Add (data [i] ["wrong2"].ToString ());
+					newQuestion.Add (data [i] ["wrong3"].ToString ());
 					problemSet.Add (newQuestion);
 				}
 			}
